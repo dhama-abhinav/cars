@@ -1,4 +1,3 @@
-// "use-client";
 import { SignedOut } from "@clerk/nextjs";
 import { HomeSearch } from "@/components/home-search";
 import Link from "next/link";
@@ -18,6 +17,9 @@ export default async function Home() {
   return (
     <div className="flex flex-col pt-20">
       {/* Hero Section with Gradient Title */}
+      <div>
+        <Link href="/posts">Click me to go on Posts page</Link>
+      </div>
       <section className="relative py-16 md:py-28 dotted-background">
         <div className="max-w-4xl mx-auto text-center">
           <div className="mb-8">
