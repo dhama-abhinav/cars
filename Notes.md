@@ -18,3 +18,10 @@ npx prisma migrate dev --name create-models
 npm i @prisma/client --legacy-peer-deps
 
 https://supabase.com/dashboard/project/qrjsaswbjflwpcdiybmp/editor
+
+//GEMINI
+npm i @google/generative-ai --legacy-peer-deps
+
+npm i uuid --legacy-peer-deps
+
+npm i react-hook-form zod @hookform/resolvers --legacy-peer-deps
